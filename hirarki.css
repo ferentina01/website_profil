@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    align-items:center ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Hirarki{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+
+}
+
+.Hirarki ul{
+    padding-top: 20px;
+    position: relative;
+    margin-left: 200px;
+    
+
+
+}
+
+.Hirarki li{
+    display: inline-table;
+    text-align: left;
+    list-style-type: none;
+    position: relative;
+    padding: 30px;
+
+}
+
+.Hirarki:before, .Hirarki li :after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid #ccc;
+    width: 51%;
+    height: 10px;
+}
+
+.Hirarki li:after{
+    right: auto;
+    left: 50%;
+    border-left: 1px solid #ccc;
+}
+
+.Hirarki li:only-child:after, .Hirarki li:only-child::before{
+    display:none;
+}
+
+.Hirarki li:only-child{
+    padding-top: 100px;
+}
+
+.Hirarki li:first-child:before, .Hirarki li :last-child:after{
+
+    border: 10px none;
+}
+
+.Hirarki li:last-child:before{
+    border-right: 1px solid #ccc;
+    border-radius: 0px 5px 0px 0px;
+
+}
+
+.Hirarki li:first-child::after{
+    border-radius: 5px 0px 0px 0px ;
+}
+
+.Hirarki ul ul:before{
+    content: " ";
+    position:absolute;
+    top: 0;
+    left: 10%;
+    border-left: 1px solid #ccc;
+    width:  0px;
+    height: 20px;
+}
+
+.Hirarki a{
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: -ms-inline-grid;
+    border-radius: 10px;
+    text-decoration-line:underline;
+    border-radius: 5px;
+   
+
+}

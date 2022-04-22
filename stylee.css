@@ -1,0 +1,521 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color:rgb(172, 135, 158);
+    
+    
+}
+body{
+    margin: -10px;
+    padding: -20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("bgdark.jpg");
+    background-size: cover;
+    
+}
+
+.wadah{
+    width: -1100px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.Judul {
+    font-weight: 1000;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 570px;
+    font-family:'Courier New', Courier, monospace, Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(248, 248, 248);
+    text-shadow: 3px 3px 8px rgb(205, 3, 231);
+    top: 300px;
+    text-align: justify;
+   
+    
+
+  
+}
+
+.ltr{
+    float:justify;
+    font-size: large;
+    direction: ltr;
+    padding-left: 1000px;
+   
+
+
+}
+ section{
+     display: block;
+ }
+
+ section img{
+     display: block;
+ }
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;  
+    background:#63152c;
+    background-size: cover; 
+    z-index: 1;
+    border-bottom: 1px solid rgb(194, 85, 132); 
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:aliceblue;
+    font-weight: bold;
+    text-align:center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+
+img.tengah {
+    margin-left: -100px;
+    margin-top:  -330px; 
+    left: 40%;
+    top: 60%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    
+    
+    
+}
+
+.motivasi{
+    float: justify;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 900;
+    width: 100%;
+    font-family:cursive;
+    text-align: center;
+   margin-top: 370px;
+}
+
+
+
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 70px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+     font-size: 25px;
+    font-weight: 500;
+    padding-left: 70px;
+    margin-top: -30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5{
+     font-size: 20px;
+    font-weight: 500;
+    padding-left:380px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h6{
+      font-size: 30px;
+    font-weight: 500;
+    padding-left:1100px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.educati{
+    text-align: left;
+     line-height: 80px;
+    margin-top: 5px;
+    font-family: cursive;
+    font-size: larger;
+    padding-left: 750px;
+}
+td{
+    letter-spacing: 2px;
+}
+img.kanan{
+    border-radius: 300px;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    margin-left: 200px;
+    margin-top:  10px;
+    left: 48%;
+    top: 25%;
+    position: absolute;
+    width: 300px;
+    height:500px;
+    
+}
+
+a.tbl-biru {
+    background: #3068ad;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+a.tbl-biru:hover {
+    background: #811d3b;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #791936;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px 40px 15px 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+
+}
+
+p {
+    
+    margin-top: -90px;
+    padding-left: 1150px;
+
+}
+.kolom{
+    text-align: left;
+    padding-left: 100px;
+    line-height: 70px;
+    margin-top: 70px;
+    font-family: cursive;
+    font-size: larger;  
+
+}
+
+img.org{
+    margin:auto;
+    padding-top: 80px;
+}
+
+
+img.kiri{
+    padding-right: 100px;
+    margin-top: -200px;
+    right: 45%;
+    top:55%;
+    position:absolute;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.course{
+    border: 3px #fff7f7;
+    caption-side: top;
+    text-align: justify;
+    line-height: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: larger;
+    padding-left: 200px;
+    word-spacing: 10px;
+    
+    
+}
+.couse.td,th{
+     border: 3px #fff7f7;
+  padding: 20px;
+}
+
+.course tr:hover {background-color: rgb(100, 30, 30);}
+
+.course th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: justify;
+  background-color: #520617;
+  color: white;
+}
+
+.cours{
+    caption-side: top;
+    text-align: left;
+    line-height: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: larger;
+    padding-left: 450px;
+    word-spacing: 10px;
+    
+
+}
+
+.cours.td,th{
+  padding: 20px;
+ 
+}
+
+.cours tr:hover {background-color: rgb(100, 30, 30);}
+
+.cours th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: justify;
+  background-color: #520617;
+  color: white;
+}
+
+
+.linktree__social--links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 350px;
+ 
+}
+.linktree__social--links .linktree__social--links__logo {
+  padding: 8px;
+  margin: 10px 15px;
+  background-color: #c4c4c4;
+  border-radius: 10%;
+  
+}
+
+
+.contact {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 300px;
+}
+
+.contact-form {
+  position: relative;
+  max-width: 800px;
+  min-width: 700px;
+  border-top-width: 100px;
+  padding: 10px 60px 10px;
+  
+}
+
+.contact-form form {
+  width: 105%;
+  
+}
+
+.contact-form .row {
+  width: 100%;
+  display: flex;
+}
+
+.contact-form .input50 {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.contact-form .input100 {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+  position: relative;
+  border: 1px solid rgba(183, 223, 230, 0.986);
+  color: rgb(248, 248, 248);
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+  resize: none;
+}
+
+.contact-form .row textarea {
+  height: 150px;
+}
+
+.contact-form .row input[type='submit'] {
+  background-color:rgb(70, 32, 173);
+ color:rgb(253, 253, 253);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+  
+  
+}
+
+div.gallery {
+    border: 0.5px solid rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+div.gallery:hover {
+    border: 0.5px solid rgb(85, 7, 7);
+}
+
+div.gallery img {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (min-width: 1920px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 700px) {
+    .wadah {
+        width: 90%;
+    }
+
+    
+    .judul{
+        display: block;
+        width: 50%;
+        text-align: center;
+        padding-left: 1000px;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .ltr{
+        width: 50%;
+        margin: 0px ;
+
+
+    }
+
+    nav .ltr ul{
+        text-align: center;
+        margin: auto;
+        line-height: 10px;
+        padding-right: 10px;
+
+    }
+
+    nav .ltr ul li{
+        display: block;
+        float: none;
+    }
+   
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 10%;
+        height: auto;
+        padding: auto;
+    }
+
+    .contact {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  .contact-form .input50,
+  .contact-form .input100 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px 30px 20px;
+  }
+
+   
+    }
+
+
